@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tabelas</title>
+        <style>
+            table {
+                border: 1px solid blue;
+                border-spacing: 10px;
+            }
+            td {
+                border: 1px dotted green;
+                padding: 8px;
+            }
+            td:hover {
+                background-color: aqua;
+            }
+            th:nth-child(odd),
+            tr:nth-child(odd) {
+                background-color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <colgroup>
+                <col span="2" style="background-color: purple" />
+                <caption>
+                    Tabela de exemplo
+                </caption>
+            </colgroup>
+            <tr>
+                <th></th>
+                <th>Título Coluna 1</th>
+                <th>Título Coluna 2</th>
+                <th>Título Coluna 3</th>
+                <th>Título Coluna 4</th>
+            </tr>
+            <tr>
+                <th>Título Linha 1</th>
+                <td>Célula 1,1</td>
+                <td>Célula 1,2</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Célula 1, 1</td>
+                            <td>Célula 1, 2</td>
+                        </tr>
+                        <tr>
+                            <td>Célula 2, 1</td>
+                            <td>Célula 2, 2</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Célula 1,4</td>
+            </tr>
+            <tr>
+                <th>Título Linha 2</th>
+                <td>Célula 2,1</td>
+                <td>Célula 2,2</td>
+                <td>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                        <li>Item 5</li>
+                    </ul>
+                </td>
+                <td>Célula 2,4</td>
+            </tr>
+            <tr>
+                <th>Título Linha 3</th>
+                <td>Item 1</td>
+                <td>Item 2</td>
+                <td>Item 3</td>
+                <td>Item 4</td>
+            </tr>
+        </table>
+    </body>
+</html>
