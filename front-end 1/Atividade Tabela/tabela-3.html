@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            table {
+                border: 1px solid black;
+            }
+            td {
+                padding: 20px;
+                border: 1px dotted black;
+            }
+            tr:nth-child(odd) {
+                background-color: #d6eeee;
+            }
+            td:hover {
+                border-style: dotted dashed solid double;
+                background-color: lawngreen;
+            }
+        </style>
+        <title>Tabela 3</title>
+    </head>
+    <body>
+        <div>
+            <table>
+                <tr>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div>
+            <table>
+                <tr>
+                    <td rowspan="3"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div>
+            <table>
+                <tr>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td rowspan="5"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="3"></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
