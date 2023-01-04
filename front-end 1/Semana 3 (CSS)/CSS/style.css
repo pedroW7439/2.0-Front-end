@@ -1,0 +1,26 @@
+.primeira {
+    border-style: solid;
+    border-color: black;
+    font-variant: small-caps;
+}
+.segunda {
+    border-style: dashed;
+    border-color: blue;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.terceira {
+    border-style: inset;
+    border-color: aquamarine;
+    border-width: 5px;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: dashed;
+    text-decoration-color: black;
+}
+a:visited {
+    text-decoration: dotted overline;
+    color: aqua;
+}
+a:link {
+    text-decoration: dashed underline;
+    /* text-decoration-color: black; */
+}
