@@ -1,0 +1,30 @@
+div.cl1 {
+    height: 80px;
+    width: 100%;
+    border: 1px solid navy;
+    padding: 30px;
+}
+.cl2 {
+    height: 160px;
+    width: 60%;
+    background-color: brown;
+    margin: 50px;
+}
+.cl3 {
+    height: 100px;
+    width: 500px;
+    background-color: powderblue;
+    margin: -20px;
+    padding: 0;
+}
+.d1 {
+    width: 600px;
+    margin: auto;
+    border: 3px solid orange;
+}
+.d2 {
+    margin: auto;
+    width: auto;
+    border: 2px solid salmon;
+    max-width: 500px;
+}

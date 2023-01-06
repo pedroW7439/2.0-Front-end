@@ -1,0 +1,14 @@
+.a {
+    list-style-type: circle;
+}
+.b {
+    list-style-type: square;
+    list-style-position: inside;
+}
+.c {
+    list-style-type: none;
+}
+.d {
+    margin: 0;
+    padding: 0;
+}
