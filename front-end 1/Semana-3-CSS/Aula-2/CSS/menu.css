@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: block;
+    /* float: left; */
+    padding-bottom: 15px;
+    width: 90px;
+    background-color: navy;
+}
+li a {
+    /* border-color: navy;
+    background-color: navy; */
+    color: yellow;
+    /* width: 60px; */
+    text-decoration: none;
+    /* padding: 8px; */
+    padding-bottom: 15px;
+    width: 90px;
+    background-color: navy;
+}
+li a:hover {
+    background-color: yellow;
+    color: navy;
+}

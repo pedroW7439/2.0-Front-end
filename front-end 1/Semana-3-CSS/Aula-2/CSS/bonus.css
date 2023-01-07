@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+}
+#gradiente {
+    height: 200px;
+    background-image: linear-gradient(red, green, yellow, blue);
+}
+#grad2 {
+    height: 200px;
+    background-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo);
+}
+#grad3 {
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
+.retangulo {
+    width: 0%;
+    height: 30px;
+    /* background-color: navy; */
+    background-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo);
+    transition: width 1s;
+    animation: encher 10s linear backwards;
+}
+@keyframes encher {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+.circulo {
+    border: 15px solid navy;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-top: 15px solid rgba(0, 0, 0, 0);
+    animation: rodar 2s linear infinite;
+}
+@keyframes rodar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
